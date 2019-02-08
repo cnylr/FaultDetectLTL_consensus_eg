@@ -8,9 +8,13 @@ Systems with Linear Temporal Logic Constraints
 - gurobi, tested with version gurobi751.
 
 # usage
-- ```sim_consensus_healthy.m``` simulates the consensus UAV swarm with unbroken comunication networks (Fig. 3 in the paper, to plot of the right half side). 
+- ```sim_consensus_healthy.m``` 
+
+simulates the consensus UAV swarm system with unbroken comunication networks (Fig. 3 in the paper, top plot of the right half side). 
 
 - ```detection_sim_consensus_faulty.m``` simulates the consensus UAV swarm with unbroken comunication networks. 
+
+simulates the consensus UAV swarm system with faults, i.e., with broken comunication networks (Fig. 3, middle plot of the right half side). 
 
 - ```detectability_analysis_consensus.m```
 
