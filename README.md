@@ -7,14 +7,15 @@ Systems with Linear Temporal Logic Constraints
 - Yalmip is required for MILP formulation, tested version R20180612.
 - gurobi, tested with version gurobi751.
 
-# usage
+# Usage
+Run the following files to reproduce the plots (Fig. 3) in the paper. 
 - ```detectability_analysis_consensus.m```
 
   - MILP-based detectability analysis of the considered UAV swarm system with fault (broken communication networks). 
 
   - The NFA associated with the considered LTL constraints are encoded with mixed integer linear constraints by hand (not automated). 
 
-  - Note that the 
+  - Note that the detection delay upper bound T=30, this can be seen by setting T = 29 and observe feasible MILP, and setting T = 30 and observe infeasible MILP (Note: while it is fairly quick to verify an MILP to be feasible, it takes much longer time to verify infeasibility).
 
 - ```sim_consensus_healthy.m``` 
 
