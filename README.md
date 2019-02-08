@@ -6,8 +6,8 @@
 - gurobi, tested with version gurobi751.
 
 # usage
-sim_consensus_healthy 
-sim_consensus_faulty
+sim_consensus_healthy.m
+sim_consensus_faulty.m
 
 
 
