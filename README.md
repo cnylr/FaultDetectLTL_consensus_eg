@@ -10,7 +10,10 @@ Systems with Linear Temporal Logic Constraints
 # usage
 - ```detectability_analysis_consensus.m```
 
-detectability analysis of the considered UAV swarm system with fault (broken communication networks). The NFA associated with the considered LTL constraints are encoded with mixed integer linear constraints by hand (not automated). 
+--MILP-based detectability analysis of the considered UAV swarm system with fault (broken communication networks). 
+--The NFA associated with the considered LTL constraints are encoded with mixed integer linear constraints by hand (not automated). 
+
+Note that the 
 
 - ```sim_consensus_healthy.m``` 
 
